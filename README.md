@@ -26,6 +26,32 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - [ ]待续
 - [ ]多图表联动
 
+#### 旧版本截图
+
+- 主界面：打开报表设计器界面
+![主界面](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/index.jpg)
+
+- 打开模板：点击打开，打开模板界面
+![打开模板](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/open_template.jpg)
+
+- 预览模板：设计好模板之后，预览模板
+![预览模板](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/preview.jpg)
+
+- 发布：点击发布
+![发布](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/release.jpg)
+
+- 发布查看：发布之后可查看相应模板下的报表情况
+![发布查看](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/release_report.jpg)
+
+- 模板设置：基础模板属性设置
+![模板设置](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/setting.jpg)
+
+- 模板设计：任意拖拽维度项，组合报表，也可以添加文字类说明
+![模板设计](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/template.jpg) 
+
+- 数据修改：根据业务进行数据调整操作
+![数据修改](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/data_change.jpg) 
+
 #### 建议
 欢迎提各种建议，以及问题。
 
@@ -37,6 +63,6 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - 在前公司也算陆陆续续用了很久的ECharts2.x版本，没有提很多建议。现在经常关注ECharts3.x，也帮忙回复一些issue，
 解决一些基本的bug，也算是帮点小忙，也推荐大家关注[ECharts3.x](https://github.com/ecomfe/echarts)，新的设计，新的架构，新的图表。也可以先阅读一下[ECharts3 正式发布及简单试用说明](http://superzdev.com/2016/01/26/echarts-please-readme/)。
 - 我的博客地址：[http://superzdev.com/](http://superzdev.com/)，使用hexo搭建，host到Github上的。
-- 本次开源的产品与我在前公司独立开发的报表设计器，UI功能有类似，不过代码与结构会完全不同，也请不要上纲上线。
+- 本次开源的产品与我在前公司**独立开发**的报表设计器，UI功能有类似，不过代码与结构会完全不同，也没有用到原有公司平台相关的代码（包括独立完成的CODE），也请不要上纲上线。
 
 
