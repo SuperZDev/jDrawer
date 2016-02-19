@@ -1,0 +1,53 @@
+{
+    "ID": "79cd2d13-41c0-2e68-97aa-238eb365a3eb",
+    "Width": 1300,
+    "Height": 1000,
+    "TemplateName": "《jDrawer-SuperZDev报表设计器》",
+    "ReportParams": {},
+    "Items": [
+        {
+            "RTitle": "航班计划调整次数",
+            "RType": "2",
+            "bDomID": "262f511e-d391-406b-b532-d8b49c1b12be", 
+            "mChartType": "Column",
+            "mIsLoadData": true, 
+            "bLeft": "5px",
+            "bTop": "1px",
+            "bWidth": "1143px",
+            "bHeight": "218px"
+        },
+        {
+            "RTitle": "机型分析",
+            "RType": "3",
+            "bDomID": "10203e60-13af-4582-b6e3-b50389cf2b40",
+       		"mChartType": "Column",
+			"mIsLoadData": true,
+            "bLeft": "8px",
+            "bTop": "224px",
+            "bWidth": "1140px",
+            "bHeight": "203px"
+        },
+        {
+            "RTitle": "航班走势分析",
+            "RType": "1",
+            "bDomID": "e933a964-f987-4790-8c62-8d8cc1e2062b", 
+            "mChartType": "Pie",
+            "mIsLoadData": true, 
+            "bLeft": "4px",
+            "bTop": "439px",
+            "bWidth": "1144px",
+            "bHeight": "240px"
+        },
+        {
+            "RTitle": "飞机可用率",
+            "RType": "2",
+            "bDomID": "723d4d0d-236d-44d3-b786-879a69452ad7", 
+            "mChartType": "Line",
+            "mIsLoadData": true, 
+            "bLeft": "3px",
+            "bTop": "685px",
+            "bWidth": "1145px",
+            "bHeight": "185px"
+        }
+    ]
+}

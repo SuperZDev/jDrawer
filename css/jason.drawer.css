@@ -1,0 +1,264 @@
+/*****基本样式*****/
+body,div,form,h1,h2,h3,h4,h5,h6,html,input,li,ol,p,ul{margin:0;padding:0}
+
+html,body{
+	font-family: "Arial","Microsoft YaHei","黑体","宋体",sans-serif;
+}
+ul li{
+	list-style: none;
+}
+.clear{clear: both;}
+.floatright {float: right;}
+.floatleft {float: left;}
+/*****绘制面板*****/
+.drawer-title{
+	font-size: 30px;
+	margin: 0 auto;
+	text-align: center;	
+}
+
+.drawer-panel{
+	margin: 0 auto;
+	margin-top:10px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	width: 1300px;
+	height: 800px;
+	border-radius: 8px;
+  	border: solid 1px #DDD;
+	position: relative;
+	box-shadow: 0px 5px 6px rgb(160,160,160);
+} 
+
+.drawer-toolbar{
+	margin:0 auto;
+	height: 50px;
+	padding: 5px;
+	border-radius: 4px 4px 0 0;
+	background-color: white;
+	border-bottom: solid #E7E7E7 1px;
+}
+
+.drawer-plugins{
+	float: left; 
+	width:150px; 
+	background-color: white;
+	border-right: solid #E7E7E7 1px;
+	position: absolute; 
+}
+.drawer-board{ 
+	height: 100%; 
+	/*左边留给插件库*/
+	margin-left: 150px;
+	position: relative;
+	background-image: url('../images/noise.gif');
+}
+
+.drawer-toolbar-item{
+	cursor: pointer;
+	border: solid #E7E7E7 1px;
+	border-right: 0px;
+	min-width: 70px;
+	max-width: 120px;
+	height: 40px; 
+	border-radius: 3px;
+	text-align: center;
+	line-height: 40px;/*文字居中*/
+} 
+ 
+.drawer-plugins-item-li:hover,.drawer-toolbar-item:hover{   
+	background:-webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#EEEEEE)); 
+   	box-shadow:2px 4px 6px gray; 
+    -webkit-box-shadow:2px 4px 6px gray; 
+}  
+ 
+.drawer-toolbar-item-last{
+	border-right: solid #E7E7E7 1px;
+}
+.drawer-plugins-title{
+	cursor: pointer;
+	background-color: gray;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 1px;
+	border-bottom: solid #E7E7E7 1px; 
+}
+.drawer-plugins-item{
+	border: solid #E7E7E7 1px;
+	margin: 1px 1px;
+}
+.drawer-plugins-item-li{
+	cursor: pointer;
+	border: solid #E7E7E7 1px;
+	margin:0px 1px 1px 0px; 
+	text-align:center;
+	width: 70px;
+	height: 60px;
+	float: left;
+	list-style: none;
+}
+
+.drawer-plugins-item-li > span{
+	 font-size: 13px; 
+	 display: block;
+	 width: 70px;
+	 overflow: hidden;
+	 text-overflow:ellipsis;
+}
+
+.drawer-plugins-item-li > img{ 
+	 width: 32px; 
+	 height: 32px;
+}
+
+.drawer-item-shadow{ 
+	 width: 100px; 
+	 height: 100px;
+	 display: none;
+}
+
+/**模板样式**/
+.drawer-item-template{
+	display:none;
+	position: absolute;
+	width:250px;
+	height:250px;
+	left:220px;
+	top:110px;
+}
+.drawer-item-template-toolbar{
+	height:25px;
+	width:100%;
+	margin-bottom:-2px;
+	border-radius: 6px;
+	background-color:#87CEFA
+}
+
+/*报表预览页面，宽度100%*/
+.drawer-board-view{
+	margin-left: 0px;
+}
+
+/*对话框模板*/
+.drawer-item-dialog{
+	display: block;
+	background-color:red;
+} 
+#reportSetting,#reportRelease,#reportTemplateSetting{
+	width:300px;
+	height: 200px;
+} 
+
+#reportSetting,#reportRelease,#reportTemplateSetting>ul>li{
+	margin:10px 5px 11px 25px;
+	border-bottom:solid #E7E7E7 1px;
+}  
+#reportDataSetting{ 
+	height: 500px;
+}
+#reportTemplateList{ 
+	height: 300px;
+	overflow-x: hidden;
+}
+
+#reportTemplateList>ul{  
+	margin-left:20px;
+	counter-reset: li; /* 创建一个计数器 */
+    list-style: none; /* 清除列表默认的编码*/
+    *list-style: decimal; /* 让IE6/7具有默认的编码 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#reportTemplateList>ul>li>a { 
+	width: 370px;
+	position: relative;
+	display: block;
+	padding: 0.4em 0.4em 0.4em 2em;
+	*padding: 0.4em;
+	margin: 0.5em 0;
+	background: #ddd;
+	color: #444;
+	text-decoration: none;
+	border-radius: 0.3em; 
+	-moz-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+#reportTemplateList>ul>li>a:hover {
+	background: #eee;
+}
+#reportTemplateList>ul>li>a:hover::before {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+#reportTemplateList>ul>li>a::before {		
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -1.3em;
+	top: 50%;
+	margin-top: -1.3em;
+	background: #87ceeb;
+	height: 2em;
+	width: 2em;
+	line-height: 2em;
+	border: 0.3em solid #fff;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 2em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+
+
+
+/*按钮CSS3样式库*/
+.button{
+	width: 140px;
+	line-height: 38px;
+	text-align: center;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:1px 1px 1px #333;
+	border-radius: 5px;
+	margin:0 20px 20px 0;
+	position: relative;
+	overflow: hidden;  
+}
+.button:nth-child(6n){
+	margin-right: 0;
+}
+.button.gray{
+	color: #8c96a0;
+	text-shadow:1px 1px 1px #fff;
+	border:1px solid #dce1e6;
+	box-shadow: 0 1px 2px #fff inset,0 -1px 0 #a8abae inset;
+	background: -webkit-linear-gradient(top,#f2f3f7,#e4e8ec);
+	background: -moz-linear-gradient(top,#f2f3f7,#e4e8ec);
+	background: linear-gradient(top,#f2f3f7,#e4e8ec);
+}
+.gray:hover{
+	background: -webkit-linear-gradient(top,#fefefe,#ebeced);
+	background: -moz-linear-gradient(top,#f2f3f7,#ebeced);
+	background: linear-gradient(top,#f2f3f7,#ebeced);
+}
+.gray:active{
+	top:1px;
+	box-shadow: 0 1px 3px #a8abae inset,0 3px 0 #fff;
+	background: -webkit-linear-gradient(top,#e4e8ec,#e4e8ec);
+	background: -moz-linear-gradient(top,#e4e8ec,#e4e8ec);
+	background: linear-gradient(top,#e4e8ec,#e4e8ec);
+}
