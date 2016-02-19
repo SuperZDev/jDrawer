@@ -29,6 +29,13 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - [ ]ECharts3.x图表属性修改功能
 - [ ]引入d3类图表  
 
+#### 操作视频
+###### 优酷
+<iframe height=600 width=860 src="http://player.youku.com/embed/XMTQ3NTk2ODEyMA==" frameborder=0 allowfullscreen></iframe>
+
+###### 哔哩哔哩
+
+
 #### 旧版本截图
 
 - 主界面：打开报表设计器界面
