@@ -34,6 +34,15 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - 打开模板：点击打开，打开模板界面
 ![打开模板](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/open_template.jpg)
 
+- 模板设置：基础模板属性设置
+![模板设置](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/setting.jpg)
+
+- 模板设计：任意拖拽维度项，组合报表，也可以添加文字类说明
+![模板设计](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/template.jpg) 
+
+- 数据修改：根据业务进行数据调整操作
+![数据修改](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/data_change.jpg) 
+
 - 预览模板：设计好模板之后，预览模板
 ![预览模板](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/preview.jpg)
 
@@ -43,14 +52,6 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - 发布查看：发布之后可查看相应模板下的报表情况
 ![发布查看](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/release_report.jpg)
 
-- 模板设置：基础模板属性设置
-![模板设置](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/setting.jpg)
-
-- 模板设计：任意拖拽维度项，组合报表，也可以添加文字类说明
-![模板设计](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/template.jpg) 
-
-- 数据修改：根据业务进行数据调整操作
-![数据修改](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/data_change.jpg) 
 
 #### 建议
 欢迎提各种建议，以及问题。
