@@ -37,6 +37,6 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 - 在前公司也算陆陆续续用了很久的ECharts2.x版本，没有提很多建议。现在经常关注ECharts3.x，也帮忙回复一些issue，
 解决一些基本的bug，也算是帮点小忙，也推荐大家关注[ECharts3.x](https://github.com/ecomfe/echarts)，新的设计，新的架构，新的图表。也可以先阅读一下[ECharts3 正式发布及简单试用说明](http://superzdev.com/2016/01/26/echarts-please-readme/)。
 - 我的博客地址：[http://superzdev.com/](http://superzdev.com/)，使用hexo搭建，host到Github上的。
-- 本次开源的产品与我在前公司独立开发的报表设计器，UI有类似，不过代码与结构会完全不同，也请不要上纲上线。
+- 本次开源的产品与我在前公司独立开发的报表设计器，UI功能有类似，不过代码与结构会完全不同，也请不要上纲上线。
 
 
