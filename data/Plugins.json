@@ -7,14 +7,14 @@
                     "RTitle": "航班计划调整次数",
                     "RType": "pie",
                     "bDomID": "262f511e-d391-406b-b532-d8b49c1b12be", 
-					"mChartType": "Column",
+                    "mChartType": "Column",
                     "mIsLoadData": true
                 },
                 {
                     "RTitle": "测试报表",
                     "RType": "2",
-                    "bDomID": "262f511e-d391-406b-b532-d8b49c1b12be",  
-					"mChartType": "Pie",
+                    "bDomID": "262f511e-d391-406b-b532-d8b49c1b12be",
+                    "mChartType": "Pie",
                     "mIsLoadData": true
                 }
             ]
