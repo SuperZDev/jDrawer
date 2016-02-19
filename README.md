@@ -31,10 +31,10 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 
 #### 操作视频
 ###### 优酷
-<iframe height=600 width=860 src="http://player.youku.com/embed/XMTQ3NTk2ODEyMA==" frameborder=0 allowfullscreen></iframe>
+[![优酷](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/jDrawer.gif "title")](http://player.youku.com/embed/XMTQ3NTk2ODEyMA==)
 
 ###### 哔哩哔哩
-
+[![哔哩哔哩](https://raw.githubusercontent.com/SuperZDev/jDrawer/master/screenshot/jDrawer.gif "title")](http://www.bilibili.com/video/av3887234/)
 
 #### 旧版本截图
 
