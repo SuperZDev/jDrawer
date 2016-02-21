@@ -9,7 +9,7 @@ jDrawer是用来设计自定义报表模板，以及生成自定义报表，并�
 3. etc,欢迎大家提建议，加feature
 4. 也可发布至线上[dachaping.com](http://www.dachaping.com)平台【开发中】,也可查看我的博客[行走在路上](http://superzdev.com/)关注最新情况参与讨论设计。
 
-详细更新请查看changelog.md
+详细更新请查看[changelog.md](https://github.com/SuperZDev/jDrawer/blob/master/changelog.md)
 
 ## TODO：
 
